@@ -1,0 +1,19 @@
+<html>
+<head>
+ <title>Регистрация</title>
+</head>
+<body>
+ <h1>Регистрация</h1>
+ <form action="process_registration.php" method="post">
+  <label for="fullname">Никнейм:</label><br>
+  <input type="text" id="fullname" name="fullname" required><br><br>
+  <label for="email">Почта:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+  <label for="username">Логин:</label><br>
+  <input type="text" id="username" name="username" required><br><br>
+  <label for="password">Пароль:</label><br>
+  <input type="password" id="password" name="password" required><br><br>
+  <input type="submit" value="Зарегистрироваться">
+ </form>
+</body>
+</html>
