@@ -1,19 +1,35 @@
 <html>
-<head>
- <title>Регистрация</title>
-</head>
-<body>
- <h1>Регистрация</h1>
- <form action="process_registration.php" method="post">
-  <label for="fullname">Никнейм:</label><br>
-  <input type="text" id="fullname" name="fullname" required><br><br>
-  <label for="email">Почта:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
-  <label for="username">Логин:</label><br>
-  <input type="text" id="username" name="username" required><br><br>
-  <label for="password">Пароль:</label><br>
-  <input type="password" id="password" name="password" required><br><br>
-  <input type="submit" value="Зарегистрироваться">
- </form>
-</body>
+    <head>
+        <link rel="stylesheet" href="registration.css">>
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <div class="registration">
+            <div class="upper-paper">
+                <img src = "images/upper-paper.svg">
+            </div>
+            <h1>underground</h1>
+            <div class="registration-form">
+                <h1>Регистрация</h1>
+                <form action="process_registration.php" method="post">
+                <div class="form-field">
+                    <label for="fullname">Никнейм</label><br>
+                    <input type="text" id="fullname" name="fullname" required><br><br>
+                    <label for="email">Почта</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="password">Пароль</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <label for="password">Повторите пароль</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                </div>
+                <div class="form-button">
+                    <button type="submit" class="button">Отправить</button>
+                </div>
+            </form>
+            </div>
+        <div class="lower-paper">
+            <img src = "images/lower-paper.svg">
+        </div>
+        </div>
+    </body>
 </html>
