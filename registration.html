@@ -14,20 +14,20 @@
     <body>
         <main>
             <div class="container">
-                <div class="upper-paper">
-                    <img src = "images/upper-paper.svg">
+                <div class="lower">
+                    <img src="images/upper-paper.svg">
                 </div>
                 <button class="button-login">Вход</button>
                 <div class="underground-title">
                     underground
                 </div>
                 <div class="registration">
-                    <div class="registration-form">
+                    <form action="process_registration.php" method="post">
                         <div class="registration-title">
                             Регистрация
                         </div>
-                        <form action="process_registration.php" method="post">
-                            <div class="form-field">
+                        <div class="form-field">
+                            <div class="anketa">
                                 <label for="fullname">Никнейм</label><br>
                                 <input type="text" id="fullname" name="fullname" required><br><br>
                                 <label for="email">Почта</label><br>
@@ -36,13 +36,12 @@
                                 <input type="password" id="password" name="password" required><br><br>
                                 <label for="password">Повторите пароль</label><br>
                                 <input type="password" id="password" name="password" required><br><br>
-                                <button type="submit" class="button-send">Отправить</button>
                             </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="lower-paper">
-                    <img src="images/upper-paper.svg">
+                            <div class="button-send">
+                                <button type="submit">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>

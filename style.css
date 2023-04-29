@@ -1,5 +1,10 @@
+/* $xl: "1200px";
+$lg: "992px";
+$md: "768px"; */
+
 body {
-    background-size: cover;
+    /* background-size: cover; */
+    /* background-image: url(images/paperss.svg); */
     background-color: #3A3A3A;
     margin: 0;
     padding: 0;
@@ -12,24 +17,13 @@ body {
     margin: 0 auto;
 }
 
-.upper-paper {
+.lower {
     position: absolute;
+    margin-top: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
     display: flex;
-    left: 0%;
-    right: 48.8%;
-    top: 0%;
-    bottom: 72.41%;
-}
-
-.lower-paper {
-    position: absolute;
-    max-width: 100%;
-    display: flex;
-    left: 100%;
-    right: -55.83%;
-    top: 100%;
-    bottom: -33.13%;
-    transform: rotate(-180deg);
+    border: 1px solid green;
 }
 
 .button-login {
@@ -50,6 +44,7 @@ body {
     font-style: normal;
     font-weight: 400;
     display: flex;
+    font-size: 128px;
     align-items: flex-end;
     justify-content: center;
     text-align: center;
@@ -60,44 +55,41 @@ body {
     background-clip: text;
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1801px) and (max-width: 1919px) {
     .underground-title {
-        font-size: 128px;
+        font-size: 100px;
     }
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1401px) and (max-width: 1800px) {
     .underground-title {
         font-size: 90px;
     }
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
     .underground-title {
         font-size: 80px;
     }
 }
-
-@media (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .underground-title {
-        font-size: 70px;
+        font-size: 65px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .underground-title {
+        font-size: 60px;
     }
 }
 
 .registration {
+    border: 5px solid red;
     position: absolute;
     left: 37.19%;
     right: 37.21%;
     top: 27.59%;
     bottom: 20.71%;
-}
-
-.registration-form {
-    position: absolute;
-    left: 9.36%;
-    right: 9.05%;
-    top: 8.42%;
-    bottom: 0.05%;
 }
 
 .registration-title {
@@ -138,11 +130,20 @@ body {
 }
 
 .form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid green;
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 11.94%;
+    top: 19.59%;
     bottom: 0%;
+}
+
+.anketa {
+    width: 100%;
+    height: 362.34px;
 }
 
 input {
@@ -151,7 +152,7 @@ input {
     top: 34.5%;
     bottom: 0%;
     width: 100%;
-    height: 9.82%;
+    height: 40.34px;
     border: 2.08655px solid #F2F2F2;
     border-radius: 3.47758px;
     background-color: #3A3A3A;
@@ -189,14 +190,14 @@ label {
 }
 
 .button-send {
-    position: absolute;
-    left: 30.92%;
-    right: 35.41%;
-    top: 85.11%;
-    bottom: 2.72%;
+    display: flex;
+    width: 135px;
+    height: 50px;
+    margin-top: 56px;
 }
 
 button {
+    cursor: pointer;
     background: #FFE145;
     border-radius: 5px;
     font-family: 'Noto Sans';
@@ -204,10 +205,6 @@ button {
     font-weight: 400;
     align-items: center;
     text-align: center;
-/*     left: 89.38%;
-    right: 4.74%;
-    top: 3.19%;
-    bottom: 91.97%; */
     color: #1D1D1D;
 }
 
