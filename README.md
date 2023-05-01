@@ -7,6 +7,6 @@
 <br>
 <font color="#CC0000"> Добро пожаловать! :) </font>
 <br>
-<input type="submit" value="Вход" onclick=" location.href='leftbar.html'  ">
+<input type="submit" value="Вход" onclick=" location.href=' registration.html'  ">
 </body>
 </html>
