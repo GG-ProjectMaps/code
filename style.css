@@ -3,8 +3,8 @@ $lg: "992px";
 $md: "768px"; */
 
 body {
-    /* background-size: cover; */
-    /* background-image: url(images/paperss.svg); */
+    background-size: cover;
+    background-image: url(images/paperss.svg); 
     background-color: #3A3A3A;
     margin: 0;
     padding: 0;
@@ -26,11 +26,10 @@ body {
 }
 
 .button-login {
-    position: absolute;
-    left: 89.38%;
-    right: 4.74%;
-    top: 3.19%;
-    bottom: 91.97%;
+    width: 8%;
+    height: 6%;
+    right: 3%;
+    top: 3%;
 }
 
 .underground-title {
@@ -86,8 +85,9 @@ body {
     position: absolute;
     left: 37.19%;
     right: 37.21%;
-    top: 27.59%;
+    top: 30.59%;
     bottom: 20.71%;
+    height: 55%;
 }
 
 .registration-title {
@@ -95,7 +95,7 @@ body {
     left: 8.25%;
     right: 8.25%;
     top: 0%;
-    bottom: 83.16%;
+    bottom: 93.16%;
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 500;
@@ -127,20 +127,10 @@ body {
     }
 }
 
-.form-field {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 19.59%;
-    bottom: 0%;
-}
-
 .anketa {
+    margin-top: 15%;
     width: 100%;
-    height: 362.34px;
+    height: 100%;
 }
 
 input {
@@ -187,13 +177,15 @@ label {
 }
 
 .button-send {
-    display: flex;
-    width: 135px;
-    height: 50px;
-    margin-top: 56px;
+    margin-left: 35%;
+    width: 30%;
+    height: 11%;
 }
 
 button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     background: #FFE145;
     border-radius: 5px;
