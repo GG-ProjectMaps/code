@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" href = "style.css" rel = "stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <button class="button-login">Вход</button>
+                <div class="underground-title">
+                    underground
+                </div>
+                <div class="registration">
+                    <div class="registration-title">
+                        Регистрация
+                    </div>
+                    <form action="process_registration.php" method="post">
+                        <div class="anketa">
+                            <label for="fullname">Никнейм</label><br>
+                            <input type="text" id="fullname" name="fullname" required><br><br>
+                            <label for="email">Почта</label><br>
+                            <input type="email" id="email" name="email" required><br><br>
+                            <label for="password">Пароль</label><br>
+                            <input type="password" id="password" name="password" required><br><br>
+                            <label for="password">Повторите пароль</label><br>
+                            <input type="password" id="password" name="password" required><br><br>
+                            <button class="button-send" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

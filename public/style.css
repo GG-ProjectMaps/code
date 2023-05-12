@@ -1,0 +1,231 @@
+/* $xl: "1200px";
+$lg: "992px";
+$md: "768px"; */
+
+body {
+    background-size: cover;
+    background-image: url(images/paperss.svg); 
+    background-color: #3A3A3A;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.lower {
+    position: absolute;
+    margin-top: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
+    display: flex;
+}
+
+.button-login {
+    width: 8%;
+    height: 6%;
+    right: 3%;
+    top: 3%;
+}
+
+.underground-title {
+    position: absolute;
+    left: 30%;
+    right: 29.28%;
+    top: 13.8%;
+    bottom: 70.71%;
+    font-family: 'Sedgwick Ave Display';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    font-size: 128px;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    background: url(images/texture.svg), linear-gradient(180deg, #FCFCFC 29.48%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media (min-width: 1801px) and (max-width: 1919px) {
+    .underground-title {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1800px) {
+    .underground-title {
+        font-size: 90px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .underground-title {
+        font-size: 80px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .underground-title {
+        font-size: 65px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .underground-title {
+        font-size: 60px;
+    }
+}
+
+.registration {
+    position: absolute;
+    left: 37.19%;
+    right: 37.21%;
+    top: 30.59%;
+    bottom: 20.71%;
+    height: 55%;
+}
+
+.registration-title {
+    position: absolute;
+    left: 8.25%;
+    right: 8.25%;
+    top: 0%;
+    bottom: 93.16%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+@media (max-width: 1920px) {
+    .registration-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .registration-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .registration-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .registration-title {
+        font-size: 20px;
+    }
+}
+
+.anketa {
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    left: 0%;
+    right: 0%;
+    top: 34.5%;
+    bottom: 0%;
+    width: 100%;
+    height: 40.34px;
+    border: 2.08655px solid #F2F2F2;
+    border-radius: 3.47758px;
+    background-color: #3A3A3A;
+}
+
+label {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: #F2F2F2;
+}
+
+@media (max-width: 1920px) {
+    label {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1366px) {
+    label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1280px) {
+    label {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    label {
+        font-size: 10px;
+    }
+}
+
+.button-send {
+    margin-left: 35%;
+    width: 30%;
+    height: 11%;
+}
+
+button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background: #FFE145;
+    border-radius: 5px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+@media (max-width: 1920px) {
+    button {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1366px) {
+    button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1280px) {
+    button {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    button {
+        font-size: 10px;
+    }
+}
+
+button:hover {
+    background: #FFED90;
+}
+
+button:active {
+    background: #FFDC24;
+}
+
